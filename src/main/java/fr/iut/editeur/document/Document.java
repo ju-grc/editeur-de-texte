@@ -44,4 +44,8 @@ public class Document {
         String partieDroite = texte.substring(fin +1);
         texte = partieGauche + partieDroite;
     }
+
+    public void clear(){
+        texte = " .";
+    }
 }

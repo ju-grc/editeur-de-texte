@@ -46,4 +46,12 @@ public class Document {
     public void clear(){
         texte = "";
     }
+    /*
+    public void inserer(int debut, String message) {
+        String partieGauche = texte.substring(0, debut + 2);
+        String partieDroite = texte.substring(debut + 1);
+
+        texte = partieGauche + message + partieDroite;
+    }
+     */
 }

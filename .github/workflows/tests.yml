@@ -3,7 +3,7 @@ name: tests unitaires
 on:
   push:
     branches:
-      - *
+      - '*'
 
 jobs:
   job1 :
